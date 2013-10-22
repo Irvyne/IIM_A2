@@ -18,6 +18,8 @@ Now, I must launch "Git bash" from windows applications.
 
 I run the terminal (available in Applications/Utilities/Terminal).
 
+![ScreenShot][101]
+
 ### I'm on Linux *(I hope Debian for you !)*
 
 I run a terminal or I use a SSH connection.
@@ -43,5 +45,5 @@ Run the following command : `php -v`
 [1]:  http://msysgit.github.io/
 [2]:
 
-[101]: https://raw.github.com/Irvyne/IIM_A1/master/Resources/img/wampserver.png
+[101]: https://raw.github.com/Irvyne/IIM_A2/master/Resources/img/terminal-mac.png
 [102]:
