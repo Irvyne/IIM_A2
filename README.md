@@ -47,13 +47,13 @@ For example, on Windows with MAMP, it's like : `C:\wamp\bin\php\php5.x.x\`
 
 Now, you have to add this directory to the PATH environment :
 
-- Right-click on "Computeur" -> then click on "Properties"
+- Right-click on "Computer" -> then click on "Properties"
 
 - Click on "Advanced system settings" in the left sidebar
 
 - On the bottom right, click on the "Environment variables" button -> a new window open
 
-- In the "Systems variables" section, select the "PATH" one -> click on the "Edit" button -> a new window open
+- In the "System variables" section, select the "PATH" one -> click on the "Edit" button -> a new window open
 
 - In the input "Variable value" go to the end of the line, check that a semicolon appear at the end -> and then add the php path to it (example : "...;C:\wamp\bin\php\php5.x.x\")
 
@@ -74,6 +74,26 @@ Run the following command : `php -v`
 If the PHP version is sufficient for you, STOP, don't touch nothing !
 
 If not, I council you to go to [HomeBrew homepage][2] to install the latest php version in CLI
+
+To test HomeBrew installation, hint `brew doctor` in the terminal, if an error occurred, you must fix it before continuing the nex steps !
+
+Then, after having installed HomeBrew, open a Terminal and hint:
+
+``` bash
+brew tap homebrew/dupes
+```
+
+following by:
+
+```bash
+brew tap josegonzalez/homebrew-php
+```
+
+Then, compile PHP (for version 5.5):
+
+```bash
+brew install php55
+```
 
 ### I'm on Linux *(I hope Debian for you !)*
 
