@@ -55,7 +55,7 @@ Now, you have to add this directory to the PATH environment :
 
 - In the "Systems variables" section, select the "PATH" one -> click on the "Edit" button -> a new window open
 
-- In the input "Variable value" go to the end of the line, check that a semi-colon appear at the end -> and then add the php path to it (example : "...;C:\wamp\bin\php\php5.x.x\")
+- In the input "Variable value" go to the end of the line, check that a semicolon appear at the end -> and then add the php path to it (example : "...;C:\wamp\bin\php\php5.x.x\")
 
 - Then click on "OK" and you successfully add the php executable to the System PATH
 
