@@ -63,13 +63,15 @@ Restart your terminal (close then re-open it)
 
 Then try again to run the following command : `php -v`
 
+![ScreenShot][105]
+
 It works dude !
 
 ### I'm on Mac OSX (MAMP: Mac + Apache + MySQL + PHP)
 
 Run the following command : `php -v`
 
-![ScreenShot][105]
+![ScreenShot][106]
 
 If the PHP version is sufficient for you, STOP, don't touch nothing !
 
@@ -111,5 +113,6 @@ brew install php55
 [102]: https://raw.github.com/Irvyne/IIM_A2/master/Resources/img/terminal-mac.png
 [103]: https://raw.github.com/Irvyne/IIM_A2/master/Resources/img/terminal-linux.png
 [104]: https://raw.github.com/Irvyne/IIM_A2/master/Resources/img/terminal-windows-php.png
+[104]: https://raw.github.com/Irvyne/IIM_A2/master/Resources/img/terminal-windows-php-works.png
 [105]: https://raw.github.com/Irvyne/IIM_A2/master/Resources/img/terminal-mac-php.png
 [106]: https://raw.github.com/Irvyne/IIM_A2/master/Resources/img/terminal-linux-php.png
